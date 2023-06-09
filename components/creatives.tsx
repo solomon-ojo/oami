@@ -156,7 +156,7 @@ export default function Creatives() {
                 <Image className="inline-block mb-12" src={CreativesImage} width={330} height={181} alt="Creatives" />
                 <h3 className="h3 font-cabinet-grotesk text-4xl mb-4">Become a member of the family</h3>
                 <p className="text-xl text-gray-500 mb-6">
-                God did not create the beleiever to function in isolation. We are at our best when in a family. Join a body of like-minded people today
+                God did not create the believer to function in isolation. We are at our best when in a family. Join a body of like-minded people today
                 </p>
                 <div>
                   <Link className="btn text-white bg-blue-500 hover:bg-blue-600 shadow-sm" href="/signup">
