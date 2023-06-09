@@ -108,10 +108,10 @@ export default function Tabs() {
                       <Image className="w-full h-full object-cover" src={TabsImage01} width={516} height={387} alt="Tabs 01" />
                     </figure>
                     <div className="relative bg-gray-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
-                      <h4 className="h4 mb-2">Optimize and scale, easy to start</h4>
-                      <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                      <h4 className="h4 mb-2 text-white">God answers prayers. He heals and delivers.</h4>
+                      <p className="text-lg text-white">Do you have any ailment or sickness that doctors are unable to cure? Or do you know a loved one suffering from sicknesses and diseases? The power of God is available to heal all sorts of sicknesses. Call us today</p>
                       <a className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6" href="#0">
-                        <span className="text-sm">Learn more</span>
+                        <span className="text-sm">Pray for me</span>
                         <svg className="w-3 h-3 fill-current text-purple-400 shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M6 5H0v2h6v4l6-5-6-5z" />
                         </svg>
@@ -137,10 +137,10 @@ export default function Tabs() {
                       <Image className="w-full h-full object-cover" src={TabsImage02} width={516} height={387} alt="Tabs 02" />
                     </figure>
                     <div className="relative bg-gray-800 py-8 md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto">
-                      <h4 className="h4 mb-2">Easy to start, optimize and scale</h4>
-                      <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur..</p>
+                      <h4 className="h4 mb-2 text-white">Are you overwhelmed with worried about any situation? Talk to us</h4>
+                      <p className="text-lg text-white">We want you to know that God has not left you without help. He has put in place a community of believers that understand your situation and are eager to help you through. Talk to someone today</p>
                       <a className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6" href="#0">
-                        <span className="text-sm">Learn more</span>
+                        <span className="text-sm">Talk to us</span>
                         <svg className="w-3 h-3 fill-current text-purple-400 shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M6 5H0v2h6v4l6-5-6-5z" />
                         </svg>
@@ -166,10 +166,10 @@ export default function Tabs() {
                       <Image className="w-full h-full object-cover" src={TabsImage03} width={516} height={387} alt="Tabs 01" />
                     </figure>
                     <div className="relative bg-gray-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
-                      <h4 className="h4 mb-2">Optimize and scale, easy to start</h4>
-                      <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                      <h4 className="h4 mb-2 text-white">Discipleship is foundational to the expansion of God's Kingdom</h4>
+                      <p className="text-lg text-white">Are you a believer and wants to do more for God? Do you want to understand the scriptures better and flow more in the gifts and fruits of the spirit? Join Pastor Yinka as he guides you through the path of discipleship</p>
                       <a className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6" href="#0">
-                        <span className="text-sm">Learn more</span>
+                        <span className="text-sm">Register</span>
                         <svg className="w-3 h-3 fill-current text-purple-400 shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M6 5H0v2h6v4l6-5-6-5z" />
                         </svg>
@@ -195,10 +195,10 @@ export default function Tabs() {
                       <Image className="w-full h-full object-cover" src={TabsImage05} width={516} height={387} alt="Tabs 02" />
                     </figure>
                     <div className="relative bg-gray-800 py-8 md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto">
-                      <h4 className="h4 mb-2">Easy to start, optimize and scale</h4>
-                      <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                      <h4 className="h4 mb-2 text-white">The Word of God on the Go!</h4>
+                      <p className="text-lg text-white">We have carefully archived and curated several hours of teachings for you to help your spiritual growth. You do not have to wait only till sundays before you listenn to the word. You can listen now!</p>
                       <a className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6" href="#0">
-                        <span className="text-sm">Learn more</span>
+                        <span className="text-sm">Browse teachings</span>
                         <svg className="w-3 h-3 fill-current text-purple-400 shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M6 5H0v2h6v4l6-5-6-5z" />
                         </svg>
@@ -224,10 +224,10 @@ export default function Tabs() {
                       <Image className="w-full h-full object-cover" src={TabsImage04} width={516} height={387} alt="Tabs 01" />
                     </figure>
                     <div className="relative bg-gray-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
-                      <h4 className="h4 mb-2">Optimize and scale, easy to start</h4>
-                      <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                      <h4 className="h4 mb-2 text-white">A safe place for ladies</h4>
+                      <p className="text-lg text-white"> Dr Esther is a seasoned counsellor, adviser and medical doctor. She is also a mother and sister. With her many years of experience in minstry overseeing and managing people, you can be sure you are in safe and secured hands. </p>
                       <a className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6" href="#0">
-                        <span className="text-sm">Learn more</span>
+                        <span className="text-sm">Talk to Dr Esther</span>
                         <svg className="w-3 h-3 fill-current text-purple-400 shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M6 5H0v2h6v4l6-5-6-5z" />
                         </svg>
