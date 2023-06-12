@@ -137,7 +137,7 @@ export default function Tabs() {
                       <Image className="w-full h-full object-cover" src={TabsImage02} width={516} height={387} alt="Tabs 02" />
                     </figure>
                     <div className="relative bg-gray-800 py-8 md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto">
-                      <h4 className="h4 mb-2 text-white">Are you overwhelmed with worried about any situation? Talk to us</h4>
+                      <h4 className="h4 mb-2 text-white">Are you overwhelmed by or worried about any situation? Talk to us</h4>
                       <p className="text-lg text-white">We want you to know that God has not left you without help. He has put in place a community of believers that understand your situation and are eager to help you through. Talk to someone today</p>
                       <a className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6" href="#0">
                         <span className="text-sm">Talk to us</span>
