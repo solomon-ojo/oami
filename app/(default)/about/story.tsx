@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import AboutImage from '@/public/images/about-02.jpg'
+import AboutImage from '@/public/images/pst.png'
 import AboutLogo from '@/public/images/about-logo.png'
 
 export default function AboutStory() {  
@@ -9,7 +9,7 @@ export default function AboutStory() {
         <div className="pb-12 md:pb-20">
 
           <div className="max-w-3xl mx-auto">
-            <h3 className="h3 mb-3">Our story</h3>
+            <h3 className="h3 mb-3">Our Mandate</h3>
             <p className="text-lg text-gray-600 mb-8">
               Aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat auctor urna nunc id cursus metus aliquam eleifend, arcu dictum varius duis at consectetur lorem donec massa sapien, sed risus ultricies tristique nulla aliquet. Morbi tristique senectus et netus et, nibh nisl condimentum id venenatis a condimentum vitae sapien.
             </p>
@@ -23,7 +23,7 @@ export default function AboutStory() {
               <Image className="grow self-start rounded" src={AboutImage} width={435} height={326} alt="About us 02" />
             </figure>
             <div className="sm:ml-8 lg:ml-16">
-              <h4 className="h4 mb-2">2017 - 2020</h4>
+              <h4 className="h4 mb-2">Our Leaders - Pastor&Dr.(Mrs)Ademiluka</h4>
               <p className="text-lg text-gray-600 mb-8">
                 Quam pellentesque nec nam aliquam sem et tortor consequat, pellentesque adipiscing commodo elit at imperdiet. Semper auctor neque vitae tempus quam pellentesque nec. Amet dictum sit amet justo donec enim diam varius sit amet mattis vulputate enim nulla aliquet porttitor.
               </p>

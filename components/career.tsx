@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import TeamImage01 from '@/public/images/team-mosaic-01.jpg'
-import TeamImage02 from '@/public/images/team-mosaic-02.jpg'
-import TeamImage03 from '@/public/images/team-mosaic-03.jpg'
-import TeamImage04 from '@/public/images/team-mosaic-04.jpg'
+import TeamImage01 from '@/public/images/about-02.png'
+import TeamImage02 from '@/public/images/about-04.png'
+import TeamImage03 from '@/public/images/about-03.png'
+import TeamImage04 from '@/public/images/about-05.png'
 
 export default function Career() {  
   return (
@@ -34,62 +34,13 @@ export default function Career() {
                 <figure className="absolute h-auto" style={{ top: '5.9%', right: '0', width: '23.4%', maxWidth: '180px' }} data-aos="zoom-y-out" data-aos-delay="450">
                   <Image className="shadow-2xl" src={TeamImage04} width={180} height={180} alt="Team mosaic 04" />
                 </figure>
-                <svg className="relative mx-auto h-auto rounded-full shadow-2xl" style={{ width: '10.4%' }} viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                  <defs>
-                    <radialGradient cx="21.152%" cy="86.063%" fx="21.152%" fy="86.063%" r="79.941%" id="header-logo">
-                      <stop stopColor="#4FD1C5" offset="0%" />
-                      <stop stopColor="#81E6D9" offset="25.871%" />
-                      <stop stopColor="#338CF5" offset="100%" />
-                    </radialGradient>
-                  </defs>
-                  <rect width="32" height="32" rx="16" fill="url(#header-logo)" fillRule="nonzero" />
-                </svg>
+                
               </div>
             </div>
           </div>
 
           {/* Job list */}
-          <div className="max-w-3xl mx-auto">
-
-            <h3 className="h4 mb-8">Current open positions</h3>
-
-            <div className="-my-3">
-
-              {/* 1st Item */}
-              <a className="flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="#0">
-                <div className="font-medium">Senior Backend Engineer</div>
-                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
-                </svg>
-              </a>
-
-              {/* 2nd Item */}
-              <a className="flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="#0">
-                <div className="font-medium">Infrastructure Engineer</div>
-                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
-                </svg>
-              </a>
-
-              {/* 3rd Item */}
-              <a className="flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="#0">
-                <div className="font-medium">Senior Account Executive</div>
-                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
-                </svg>
-              </a>
-
-              {/* 4th Item */}
-              <a className="flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg" href="#0">
-                <div className="font-medium">Senior Front-end Architect</div>
-                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
-                </svg>
-              </a>
-
-            </div>
-
-          </div>
+         
 
         </div>
       </div>

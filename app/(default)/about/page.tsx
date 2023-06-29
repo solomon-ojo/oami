@@ -15,11 +15,8 @@ export default function About() {
   return (
     <>
       <Intro />
-      <Story />
-      <Stats />
-      <Team />
-      <Career />
-      <Process />
+      <Story /> 
+      <Career />   
       <Cta />
     </>
   )

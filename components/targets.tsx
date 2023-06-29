@@ -28,16 +28,16 @@ export default function Target() {
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2" data-aos="fade-left" data-aos-anchor="[data-aos-id-target]">By the Word and the Spirit</div>
                   <div className="mt-6" data-aos="fade-left" data-aos-delay="200" data-aos-anchor="[data-aos-id-target]">
-                    <h4 className="h4 mb-2"><span className="text-purple-600"></span> Precise Knowledge of the Scriptures</h4>
-                    <p className="text-lg text-gray-400">We give uttmost attention to the reading and explaination of the scriptures.  </p>
+                    <h4 className="h4 mb-2"><span className="text-purple-600"></span> Precise Knowledge of God and proper interpretation of the Scriptures</h4>
+                    <p className="text-lg text-gray-400"> We have a passion for helping believers understand the true nature of God through proper study and interpretaion of the scriptures   </p>
                   </div>
                   <div className="mt-6" data-aos="fade-left" data-aos-delay="400" data-aos-anchor="[data-aos-id-target]">
                     <h4 className="h4 mb-2"><span className="text-teal-500"></span> Practice of the Spirit </h4>
-                    <p className="text-lg text-gray-400"> We believe that a personal and intimate work with the spirit is indispensable in the life of the believer.</p>
+                    <p className="text-lg text-gray-400"> We believe that a personal and intimate work with the Holy spirit is indispensable in the life of the believer.</p>
                   </div>
                   <div className="mt-6" data-aos="fade-left" data-aos-delay="600" data-aos-anchor="[data-aos-id-target]">
                     <h4 className="h4 mb-2"><span className="text-pink-500"></span> Outreaches and Evangelism</h4>
-                    <p className="text-lg text-gray-400">We believe in the great commission. We believe that active evangelism is the only way of expanding the kingdom of God</p>
+                    <p className="text-lg text-gray-400">We believe in the great commission and train disciples for it. We believe that active evangelism is one of the major ways of expanding the kingdom of God</p>
                   </div>
                 </div>
               </div>

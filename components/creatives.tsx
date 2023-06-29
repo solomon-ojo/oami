@@ -44,7 +44,7 @@ export default function Creatives() {
                         <div className="text-sm font-medium text-gray-500">@Dr Esther</div>
                       </div>
                       <div>
-                        <a className="btn-sm text-white bg-gray-800 hover:bg-gray-900 shadow-sm" href="#0">
+                        <a className="btn-sm text-white bg-gray-800 hover:bg-gray-900 shadow-sm" target='_blank' href="https://api.whatsapp.com/message/VZ3AKM3QFUJDN1?autoload=1&app_absent=0">
                           <svg className="mr-2" width="12" height="12" xmlns="http://www.w3.org/2000/svg">
                             <path
                               className="fill-white opacity-70"
@@ -73,7 +73,7 @@ export default function Creatives() {
                         <div className="text-sm font-medium text-gray-500">@Tomisin</div>
                       </div>
                       <div>
-                        <a className="btn-sm text-white bg-gray-800 hover:bg-gray-900 shadow-sm" href="#0">
+                        <a className="btn-sm text-white bg-gray-800 hover:bg-gray-900 shadow-sm" target='_blank' href="https://wa.me/+380633218563">
                           <svg className="mr-2" width="12" height="12" xmlns="http://www.w3.org/2000/svg">
                             <path
                               className="fill-white opacity-70"
@@ -105,7 +105,7 @@ export default function Creatives() {
                         <div className="text-sm font-medium text-gray-500">@Samuel</div>
                       </div>
                       <div>
-                        <a className="btn-sm text-white bg-gray-800 hover:bg-gray-900 shadow-sm" href="#0">
+                        <a className="btn-sm text-white bg-gray-800 hover:bg-gray-900 shadow-sm" target='_blank' href="https://wa.me/+380939653455">
                           <svg className="mr-2" width="12" height="12" xmlns="http://www.w3.org/2000/svg">
                             <path
                               className="fill-white opacity-70"
@@ -135,7 +135,7 @@ export default function Creatives() {
                         <div className="text-sm font-medium text-gray-500">@Taiwo</div>
                       </div>
                       <div>
-                        <a className="btn-sm text-white bg-gray-800 hover:bg-gray-900 shadow-sm" href="#0">
+                        <a className="btn-sm text-white bg-gray-800 hover:bg-gray-900 shadow-sm" target='_blank' href="https://wa.me/+2348169294795">
                           <svg className="mr-2" width="12" height="12" xmlns="http://www.w3.org/2000/svg">
                             <path
                               className="fill-white opacity-70"
@@ -159,7 +159,7 @@ export default function Creatives() {
                 God did not create the believer to function in isolation. We are at our best when in a family. Join a body of like-minded people today
                 </p>
                 <div>
-                  <Link className="btn text-white bg-blue-500 hover:bg-blue-600 shadow-sm" href="/signup">
+                  <Link className="btn text-white bg-blue-500 hover:bg-blue-600 shadow-sm" target='_blank' href="https://www.facebook.com/ademilukaolayinka.agbc">
                     Join The Family
                   </Link>
                 </div>

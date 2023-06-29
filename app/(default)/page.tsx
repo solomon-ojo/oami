@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Home - Simple',
-  description: 'Page description',
+  title: 'OAMI - The just by faith shall live',
+  description: 'Olayinka Ademiluka Ministries International',
 }
 
 import Hero from '@/components/hero-home'

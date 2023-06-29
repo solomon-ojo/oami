@@ -65,24 +65,26 @@ export default function MobileMenu() {
         >
           <ul className="px-5 py-2">
             <li>
-              <Link href="/pricing" className="flex text-gray-600 hover:text-gray-900 py-2" onClick={() => setMobileNavOpen(false)}>Pricing</Link>
+              <Link href="/" className="flex text-gray-600 hover:text-gray-900 py-2" onClick={() => setMobileNavOpen(false)}>Home</Link>
             </li>
             <li>
               <Link href="/about" className="flex text-gray-600 hover:text-gray-900 py-2" onClick={() => setMobileNavOpen(false)}>About us</Link>
             </li>
             <li>
-              <Link href="/tutorials" className="flex text-gray-600 hover:text-gray-900 py-2" onClick={() => setMobileNavOpen(false)}>Tutorials</Link>
+              {/* formerly linking to tutorials, now to YT page */}
+              <Link href="https://www.youtube.com/@olayinkaademilukaministrie231"  className="flex text-gray-600 hover:text-gray-900 py-2" onClick={() => setMobileNavOpen(false)} target='_blank'>Teachings</Link>
             </li>
             <li>
-              <Link href="/blog" className="flex text-gray-600 hover:text-gray-900 py-2" onClick={() => setMobileNavOpen(false)}>Blog</Link>
+              <Link href="https://www.amazon.de/-/en/Olayinka-Ademiluka/dp/197627480X/ref=sr_1_1?crid=2EJQ1WVVWOMG1&keywords=olayinka+ademiluka&qid=1688020159&sprefix=olayinka+ademiluka%2Caps%2C111&sr=8-1" className="flex text-gray-600 hover:text-gray-900 py-2" onClick={() => setMobileNavOpen(false)} target='_blank'>Books</Link>
             </li>
             <li>
-              <Link href="/" className="flex text-gray-600 hover:text-gray-900 py-2" onClick={() => setMobileNavOpen(false)}>Books</Link>
+              <Link href="https://wa.me/+447342920067" target='_blank' className="flex text-gray-600 hover:text-gray-900 py-2" onClick={() => setMobileNavOpen(false)}>Contact</Link>
             </li>
+            
            
            
             <li>
-              <Link href="/signup" className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 w-full my-2" onClick={() => setMobileNavOpen(false)}>
+              <Link href="/oami-ways-to-give.pdf" locale={false} target='_blank' className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 w-full my-2" onClick={() => setMobileNavOpen(false)}>
                 <span>Give</span>
                 <svg className="w-3 h-3 fill-current text-gray-400 shrink-0 ml-2 -mr-1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                   <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" fill="#999" fillRule="nonzero" />
