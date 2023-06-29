@@ -17,12 +17,10 @@ export default function Home() {
   return (
     <>
       <Hero />
-      
       <Target/>
       <Tabs/>
       <Creatives/>
       <Outreach/>
-    
       <Cta />
     </>
   )

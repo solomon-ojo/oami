@@ -24,7 +24,7 @@ import Hungary01 from '@/public/images/hungary-01.jpeg'
 import Hungary02 from '@/public/images/hungary-02.jpeg'
 import Hungary03 from '@/public/images/hungary-03.jpeg'
 import Hungary04 from '@/public/images/hungary-04.jpeg'
-import Hungary05 from '@/public/images/hungary-05.jpeg'
+
 import Hungary06 from '@/public/images/hungary-06.jpeg'
 import Munster01 from '@/public/images/Munster01.jpeg'
 import Munster02 from '@/public/images/munster-02.jpeg'
