@@ -5,36 +5,39 @@ import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
-import Inspiration01 from '@/public/images/inspiration-01.jpg'
-import Inspiration02 from '@/public/images/inspiration-02.jpg'
-import Inspiration03 from '@/public/images/inspiration-03.jpg'
-import Inspiration04 from '@/public/images/inspiration-04.jpg'
-import Inspiration05 from '@/public/images/inspiration-05.jpg'
-import Inspiration06 from '@/public/images/inspiration-06.jpg'
-import Inspiration07 from '@/public/images/inspiration-07.jpg'
-import Inspiration08 from '@/public/images/inspiration-08.jpeg'
-import Inspiration09 from '@/public/images/inspiration-09.jpeg'
-import Inspiration10 from '@/public/images/inspiration-10.jpg'
-import Inspiration11 from '@/public/images/inspiration-11.jpeg'
-import Inspiration12 from '@/public/images/inspiration-12.jpg'
-import Inspiration13 from '@/public/images/inspiration-13.jpg'
-import Inspiration14 from '@/public/images/inspiration-14.jpg'
-import Inspiration15 from '@/public/images/inspiration-15.jpg'
-import Inspiration16 from '@/public/images/inspiration-16.jpg'
-import Inspiration17 from '@/public/images/inspiration-17.jpg'
-import Inspiration18 from '@/public/images/inspiration-18.jpg'
-import Inspiration19 from '@/public/images/inspiration-19.jpg'
-import Inspiration20 from '@/public/images/inspiration-20.jpg'
-import Inspiration21 from '@/public/images/inspiration-21.jpg'
-import Inspiration22 from '@/public/images/inspiration-22.jpg'
-import Inspiration23 from '@/public/images/inspiration-23.jpg'
-import Inspiration24 from '@/public/images/inspiration-24.jpg'
-import Inspiration25 from '@/public/images/inspiration-25.jpg'
-import Inspiration26 from '@/public/images/inspiration-26.jpg'
-import Inspiration27 from '@/public/images/inspiration-27.jpg'
-import Inspiration28 from '@/public/images/inspiration-28.jpg'
-import Inspiration29 from '@/public/images/inspiration-29.jpg'
-import Inspiration30 from '@/public/images/inspiration-30.jpg'
+import Berlin01 from '@/public/images/berlin-01.jpg'
+import Berlin02 from '@/public/images/berlin-06.jpeg'
+import Berlin03 from '@/public/images/berlin-04.jpg'
+import Berlin04 from '@/public/images/berlin-02.jpg'
+import Berlin05 from '@/public/images/berlin-05.jpg'
+import Berlin06 from '@/public/images/berlin-03.jpg'
+
+import Utrecht01 from '@/public/images/utrecht-01.jpg'
+import Utrecht02 from '@/public/images/utrecht-02.jpeg'
+import Utrecht03 from '@/public/images/utrecht-03.jpeg'
+import Utrecht04 from '@/public/images/utrecht-04.jpeg'
+import Utrecht05 from '@/public/images/utrecht-05.jpeg'
+import Utrecht06 from '@/public/images/utrecht-06.jpeg'
+import Utrecht07 from '@/public/images/utrecht-07.jpeg'
+import Utrecht08 from '@/public/images/utrecht-08.jpeg'
+import Hungary01 from '@/public/images/hungary-01.jpeg'
+import Hungary02 from '@/public/images/hungary-02.jpeg'
+import Hungary03 from '@/public/images/hungary-03.jpeg'
+import Hungary04 from '@/public/images/hungary-04.jpeg'
+import Hungary05 from '@/public/images/hungary-05.jpeg'
+import Hungary06 from '@/public/images/hungary-06.jpeg'
+import Munster01 from '@/public/images/Munster01.jpeg'
+import Munster02 from '@/public/images/munster-02.jpeg'
+import Munster03 from '@/public/images/munster-03.jpeg'
+import  Munster05 from '@/public/images/munster-05.jpeg'
+import Munster06 from '@/public/images/munster-06.jpeg'
+import Munster07 from '@/public/images/munster-07.jpeg'
+import Amsterdam01 from '@/public/images/amsterdam-01.jpeg'
+import Amsterdam02 from '@/public/images/amsterdam-02.jpeg'
+import Amsterdam03 from '@/public/images/amsterdam-03.jpeg'
+import Amsterdam04 from '@/public/images/amsterdam-04.jpg'
+import Amsterdam05 from '@/public/images/amsterdam-05.jpg'
+import Amsterdam06 from '@/public/images/amsterdam-06.jpg'
 
 
 export default function Outreach() {
@@ -97,7 +100,7 @@ export default function Outreach() {
               <div className="max-w-sm mx-auto sm:max-w-none grid gap-6 sm:grid-cols-2 md:grid-cols-3 items-start" data-aos-id-inpspiration>
                 {/* 1st Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={!['0'].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration01} width="352" height="352" alt="Inspiration 01" />
+                  <Image className="w-full aspect-square object-cover" src={Berlin01} width="352" height="352" alt="Inspiration 01" />
                   {/* Content on hover */}
                   <div className="md:hidden md:group-hover:block absolute bottom-0 left-0 right-0 p-4">
                     {/* Backdrop */}
@@ -108,179 +111,181 @@ export default function Outreach() {
                 </a>
                 {/* 2nd Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={!['0'].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="100">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration02} width="352" height="352" alt="Inspiration 02" />
+                  <Image className="w-full aspect-square object-cover" src={Berlin02} width="352" height="352" alt="Inspiration 02" />
                   {/* Content on hover */}
                  
                 </a>
                 {/* 3rd Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={!['0', ].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="200">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration03} width="352" height="352" alt="Inspiration 03" />
+                  <Image className="w-full aspect-square object-cover" src={Berlin03} width="352" height="352" alt="Inspiration 03" />
                   {/* Content on hover */}
                  
                 </a>
                 {/* 4th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={!['0', ].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="300">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration04} width="352" height="352" alt="Inspiration 04" />
+                  <Image className="w-full aspect-square object-cover" src={Berlin04} width="352" height="352" alt="Inspiration 04" />
                   {/* Content on hover */}
                  
                 </a>
                 {/* 5th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={!['0'].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="400">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration05} width="352" height="352" alt="Inspiration 05" />
+                  <Image className="w-full aspect-square object-cover" src={Berlin05} width="352" height="352" alt="Inspiration 05" />
                   {/* Content on hover */}
                   
                 </a>
                 {/* 6th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={!['0', ].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration06} width="352" height="352" alt="Inspiration 06" />
+                  <Image className="w-full aspect-square object-cover" src={Berlin06} width="352" height="352" alt="Inspiration 06" />
                   {/* Content on hover */}
                  
                 </a>
 
                  {/* 7th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '1',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration16} width="352" height="352" alt="Inspiration 07" />
+                  <Image className="w-full aspect-square object-cover" src={Amsterdam01} width="352" height="352" alt="Inspiration 07" />
                   {/* Content on hover */}
                  
                 </a>
 
                   {/* 8th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '1',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration09} width="352" height="352" alt="Inspiration 12" />
+                  <Image className="w-full aspect-square object-cover" src={Amsterdam02} width="352" height="352" alt="Inspiration 12" />
                   {/* Content on hover */}
                  
                 </a>
 
                   {/* 9th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '1',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration30} width="352" height="352" alt="Inspiration 22" />
+                  <Image className="w-full aspect-square object-cover" src={Amsterdam03} width="352" height="352" alt="Inspiration 22" />
                   {/* Content on hover */}
                  
                 </a>
 
                   {/* 10th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '1',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration22} width="352" height="352" alt="Inspiration 30" />
+                  <Image className="w-full aspect-square object-cover" src={Amsterdam04} width="352" height="352" alt="Inspiration 30" />
                   {/* Content on hover */}
                  
                 </a>
 
                   {/* 11th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '1',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration27} width="352" height="352" alt="Inspiration 20" />
+                  <Image className="w-full aspect-square object-cover" src={Amsterdam05} width="352" height="352" alt="Inspiration 20" />
                   {/* Content on hover */}
                  
                 </a>
 
                   {/* 12th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '1',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration24} width="352" height="352" alt="Inspiration 16" />
+                  <Image className="w-full aspect-square object-cover" src={Amsterdam06} width="352" height="352" alt="Inspiration 16" />
                   {/* Content on hover */}
                  
                 </a>
 
                   {/* 13th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '2',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration15} width="352" height="352" alt="Inspiration 06" />
+                  <Image className="w-full aspect-square object-cover" src={Hungary01} width="352" height="352" alt="Inspiration 06" />
                   {/* Content on hover */}
                  
                 </a>
 
                   {/* 14th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '2',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration10} width="352" height="352" alt="Inspiration 06" />
+                  <Image className="w-full aspect-square object-cover" src={Hungary06} width="352" height="352" alt="Inspiration 06" />
                   {/* Content on hover */}
                  
                 </a>
 
                   {/* 15th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '2',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration13} width="352" height="352" alt="Inspiration 06" />
+                  <Image className="w-full aspect-square object-cover" src={Hungary03} width="352" height="352" alt="Inspiration 06" />
                   {/* Content on hover */}
                  
                 </a>
 
                   {/* 16th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '2',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration12} width="352" height="352" alt="Inspiration 06" />
+                  <Image className="w-full aspect-square object-cover" src={Hungary04} width="352" height="352" alt="Inspiration 06" />
                   {/* Content on hover */}
                  
                 </a>
 
                   {/* 17th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '2',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration11} width="352" height="352" alt="Inspiration 06" />
-                  {/* Content on hover */}
-                 
+                  <Image className="w-full aspect-square object-cover" src={Hungary02} width="352" height="352" alt="Inspiration 06" />
+                  {/* Content on hover */}                
+                </a>
+
+                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '2',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
+                  <Image className="w-full aspect-square object-cover" src={Hungary06} width="352" height="352" alt="Inspiration 06" />
+                  {/* Content on hover */}                
                 </a>
 
                   {/* 18th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '3',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration07} width="352" height="352" alt="Inspiration 06" />
+                  <Image className="w-full aspect-square object-cover" src={Munster02} width="352" height="352" alt="Inspiration 06" />
                   {/* Content on hover */}
                  
                 </a>
 
                   {/* 19th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '3',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration06} width="352" height="352" alt="Inspiration 06" />
+                  <Image className="w-full aspect-square object-cover" src={Munster05} width="352" height="352" alt="Inspiration 06" />
                   {/* Content on hover */}
                  
                 </a>
 
                   {/* 20th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '3',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration25} width="352" height="352" alt="Inspiration 06" />
+                  <Image className="w-full aspect-square object-cover" src={Munster01} width="352" height="352" alt="Inspiration 06" />
                   {/* Content on hover */}
                  
                 </a>
 
                   {/* 21th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '3',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration28} width="352" height="352" alt="Inspiration 06" />
+                  <Image className="w-full aspect-square object-cover" src={Munster03} width="352" height="352" alt="Inspiration 06" />
                   {/* Content on hover */}
                  
                 </a>
 
                   {/* 22th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '3',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration26} width="352" height="352" alt="Inspiration 06" />
+                  <Image className="w-full aspect-square object-cover" src={Munster07} width="352" height="352" alt="Inspiration 06" />
                   {/* Content on hover */}
                  
                 </a>
 
+                  {/* 20th Gallery Image */}
+                <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '3',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
+                  <Image className="w-full aspect-square object-cover" src={Munster06} width="352" height="352" alt="Inspiration 06" />
+                  {/* Content on hover */}
+                </a>
+
+                
+
                   {/* 23th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '4',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration29} width="352" height="352" alt="Inspiration 06" />
+                  <Image className="w-full aspect-square object-cover" src={Utrecht02} width="352" height="352" alt="Inspiration 06" />
                   {/* Content on hover */}
                  
                 </a>
 
                   {/* 24th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '4',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration23} width="352" height="352" alt="Inspiration 06" />
+                  <Image className="w-full aspect-square object-cover" src={Utrecht08} width="352" height="352" alt="Inspiration 06" />
                   {/* Content on hover */}
                  
                 </a>
 
-                  {/* 20th Gallery Image */}
-                <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '2',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration18} width="352" height="352" alt="Inspiration 06" />
-                  {/* Content on hover */}
-                 
-                </a>
+             
 
 
-                  {/* 20th Gallery Image */}
-                <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '3',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration20} width="352" height="352" alt="Inspiration 06" />
-                  {/* Content on hover */}
-                 
-                </a>
+        
 
                   {/* 20th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '4',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration22} width="352" height="352" alt="Inspiration 06" />
+                  <Image className="w-full aspect-square object-cover" src={Utrecht07} width="352" height="352" alt="Inspiration 06" />
                   {/* Content on hover */}
                  
                 </a>
@@ -288,21 +293,21 @@ export default function Outreach() {
 
                   {/* 20th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '4',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration21} width="352" height="352" alt="Inspiration 06" />
+                  <Image className="w-full aspect-square object-cover" src={Utrecht04} width="352" height="352" alt="Inspiration 06" />
                   {/* Content on hover */}
                  
                 </a>
 
                   {/* 20th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '4',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration17} width="352" height="352" alt="Inspiration 06" />
+                  <Image className="w-full aspect-square object-cover" src={Utrecht05} width="352" height="352" alt="Inspiration 06" />
                   {/* Content on hover */}
                  
                 </a>
 
                   {/* 20th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '4',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration14} width="352" height="352" alt="Inspiration 06" />
+                  <Image className="w-full aspect-square object-cover" src={Utrecht06} width="352" height="352" alt="Inspiration 06" />
                   {/* Content on hover */}
                  
                 </a>
