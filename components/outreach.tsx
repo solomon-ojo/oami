@@ -223,7 +223,7 @@ export default function Outreach() {
 
                   {/* 19th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '3',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Inspiration08} width="352" height="352" alt="Inspiration 06" />
+                  <Image className="w-full aspect-square object-cover" src={Inspiration06} width="352" height="352" alt="Inspiration 06" />
                   {/* Content on hover */}
                  
                 </a>

@@ -196,7 +196,7 @@ export default function Tabs() {
                     </figure>
                     <div className="relative bg-gray-800 py-8 md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto">
                       <h4 className="h4 mb-2 text-white">The Word of God on the Go!</h4>
-                      <p className="text-lg text-white">We have carefully archived and curated several hours of teachings for you to help your spiritual growth. You do not have to wait only till sundays before you listenn to the word. You can listen now!</p>
+                      <p className="text-lg text-white">We have carefully archived and curated several hours of teachings for you to help your spiritual growth. You do not have to wait only till sundays before you listen to the word. You can listen now!</p>
                       <a className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6" target='_blank' href="https://www.youtube.com/@olayinkaademilukaministrie231">
                         <span className="text-sm">Browse teachings</span>
                         <svg className="w-3 h-3 fill-current text-purple-400 shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -225,7 +225,7 @@ export default function Tabs() {
                     </figure>
                     <div className="relative bg-gray-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
                       <h4 className="h4 mb-2 text-white">A safe place for ladies</h4>
-                      <p className="text-lg text-white"> Dr Esther is a seasoned counsellor, adviser and medical doctor. She is also a mother and sister. With her many years of experience in minstry overseeing and managing people, you can be sure you are in safe and secured hands. </p>
+                      <p className="text-lg text-white"> Dr Esther is a seasoned counsellor, adviser and medical doctor. She is also a mother and sister. With her many years of experience in minstry overseeing and managing people, you can be sure that you are in safe and secured hands. </p>
                       <a className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6" href="https://wa.me/message/VZ3AKM3QFUJDN1" target='_blank'>
                         <span className="text-sm">Talk to Dr Esther</span>
                         <svg className="w-3 h-3 fill-current text-purple-400 shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
