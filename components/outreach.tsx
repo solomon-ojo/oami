@@ -30,7 +30,7 @@ import Munster01 from '@/public/images/munster-01.jpg'
 import Munster02 from '@/public/images/munster-02.jpeg'
 import Munster03 from '@/public/images/munster-03.jpeg'
 import  Munster05 from '@/public/images/munster-05.jpeg'
-import Munster06 from '@/public/images/munster-06.jpeg'
+import Munster08 from '@/public/images/munster-08.jpeg'
 import Munster07 from '@/public/images/munster-07.jpeg'
 import Amsterdam01 from '@/public/images/amsterdam-01.jpeg'
 import Amsterdam02 from '@/public/images/amsterdam-02.jpeg'
@@ -258,7 +258,7 @@ export default function Outreach() {
 
                   {/* 20th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '3',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Munster06} width="352" height="352" alt="Inspiration 06" />
+                  <Image className="w-full aspect-square object-cover" src={Munster08} width="352" height="352" alt="Inspiration 06" />
                   {/* Content on hover */}
                 </a>
 
