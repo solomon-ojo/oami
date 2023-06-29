@@ -33,7 +33,7 @@ export default function AboutStory() {
                 <Image className="rounded-full self-start shrink-0 shadow-lg mr-4" src={AboutLogo} width={40} height={40} alt="Logo" />
                 <div>
                   <blockquote className="text-gray-600 italic">
-                    "For many years, I was plagued by the fear of eternity. I was told Jesus loved me, but I could not understand how he would make a place as beautiful as heaven, and make it very difficult for anyone to enter. This fear plagued me for many years until I came to the understanding of God's gift of righteousness. After God opened my eyes to the purity of the gospel, it became my biggest desire to proclaim to everyone the same truths: that righteousness is a gift that we receive from God independent of our works"
+                    "For many years, I was plagued by the fear of missing heaven. I was told Jesus loved me, but I could not understand how he would make a place as beautiful as heaven, and make it very difficult for anyone to enter. This fear plagued me for many years until I came to the understanding of God's gift of righteousness. After God opened my eyes to the purity of the gospel, it became my biggest desire to proclaim to everyone the same truths: that righteousness or making it to heaven is a gift from God independent of our works"
                   </blockquote>
                   <div className="text-sm font-medium text-gray-600 mt-2">
                     <cite className="text-gray-900 not-italic">Pastor Olayinka </cite> · <a className="text-blue-600" href="#0">Senior Pastor</a>
