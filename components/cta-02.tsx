@@ -13,12 +13,12 @@ export default function Cta02() {
 
               {/* CTA content */}
               <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
-                <h3 className="h3 text-white">Sounds like we are building something cool?</h3>
+                <h3 className="h3 text-white">Sounds like a place for you?</h3>
               </div>
 
               {/* CTA button */}
               <div>
-                <Link href="/signup" className="btn text-white bg-blue-600 hover:bg-blue-700">Join us today</Link>
+                <Link href="https://wa.me/message/VZ3AKM3QFUJDN1" target='_blank' className="btn text-white bg-blue-600 hover:bg-blue-700">Join us today</Link>
               </div>
 
             </div>
