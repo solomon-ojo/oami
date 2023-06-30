@@ -17,7 +17,7 @@ export default function Cta() {
 
               {/* CTA button */}
               <div>
-                <a className="btn text-blue-600 bg-gradient-to-r from-blue-100 to-white" href="/oami-ways-to-give.pdf" locale={false} target='_blank'>Partner with us</a>
+                <a className="btn text-blue-600 bg-gradient-to-r from-blue-100 to-white" href="/oami-ways-to-give.pdf"  target='_blank'>Partner with us</a>
               </div>
 
             </div>
