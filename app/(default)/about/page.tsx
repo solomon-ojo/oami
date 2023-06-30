@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'About - Simple',
-  description: 'Page description',
+  title: 'OAMI - The just by faith shall live',
+  description: 'Olayinka Ademiluka Ministries',
 }
 
 import Intro from './intro'
