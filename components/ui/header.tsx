@@ -30,7 +30,12 @@ export default function Header() {
 
           {/* Site branding */}
           <div className="shrink-0 mr-4">
-            <Logo />
+            {/* <Logo /> */}
+            <Link href="/">
+              <p className='font-extrabold text-xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400'>
+                OAMI
+              </p>
+            </Link>
           </div>
 
           {/* Desktop navigation */}
