@@ -9,7 +9,7 @@ export default function AboutIntro() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="md:h1 sm: mb-4">Upholding the purity of the gospel with integrity and power</h1>
+            <h1 className="h1 text-3xl md:text-5xl mb-4">Upholding the purity of the gospel with integrity and power</h1>
             <p className="text-xl text-gray-600">
               We believe that the gospel must be taught in its purity. We believe that people must know that God's righteouness and salvation are eternal gifts paid for by Jesus' blood, and that we only need to receive these gifts by faith independent of our works.
             </p>
