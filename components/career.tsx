@@ -14,7 +14,7 @@ export default function Career() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h2 className="h2 mb-4">Are you looking for a place to grow in Christ? Join us.</h2>
             <p className="text-xl text-gray-600">
-              Being part of an active team of believers is God's desire for all his children, and a requirement for spiritual growth. If you are looking for an active and vibrant family of believers to grow and fellowship with, do not estitate to reach out to us.
+              Being part of an active team of believers is God's desire for all his children, and a requirement for spiritual growth. If you are looking for an active and vibrant family of believers to grow and fellowship with, do not hestitate to reach out to us.
             </p>
           </div>
 

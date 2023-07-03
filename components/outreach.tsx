@@ -12,9 +12,9 @@ import Berlin04 from '@/public/images/berlin-02.jpg'
 import Berlin05 from '@/public/images/berlin-05.jpg'
 import Berlin06 from '@/public/images/berlin-03.jpg'
 
-import Utrecht01 from '@/public/images/utrecht-01.jpg'
+
 import Utrecht02 from '@/public/images/utrecht-02.jpeg'
-import Utrecht03 from '@/public/images/utrecht-03.jpeg'
+
 import Utrecht04 from '@/public/images/utrecht-04.jpeg'
 import Utrecht05 from '@/public/images/utrecht-05.jpeg'
 import Utrecht06 from '@/public/images/utrecht-06.jpeg'
@@ -30,8 +30,8 @@ import Munster01 from '@/public/images/munster-01.jpg'
 import Munster02 from '@/public/images/munster-02.jpeg'
 import Munster03 from '@/public/images/munster-03.jpeg'
 import  Munster05 from '@/public/images/munster-05.jpeg'
-import Munster08 from '@/public/images/munster-08.jpeg'
-import Munster07 from '@/public/images/munster-07.jpeg'
+import Munster04 from '@/public/images/munster-04.jpeg'
+import Munster07 from '@/public/images/munster-07.jpg'
 import Amsterdam01 from '@/public/images/amsterdam-01.jpeg'
 import Amsterdam02 from '@/public/images/amsterdam-02.jpeg'
 import Amsterdam03 from '@/public/images/amsterdam-03.jpeg'
@@ -223,7 +223,7 @@ export default function Outreach() {
 
                   {/* 18th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '3',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Munster02} width="352" height="352" alt="Inspiration 06" />
+                  <Image className="w-full aspect-square object-cover" src={Munster01} width="352" height="352" alt="Inspiration 06" />
                   {/* Content on hover */}
                  
                 </a>
@@ -237,7 +237,7 @@ export default function Outreach() {
 
                   {/* 20th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '3',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Munster01} width="352" height="352" alt="Inspiration 06" />
+                  <Image className="w-full aspect-square object-cover" src={Munster04} width="352" height="352" alt="Inspiration 06" />
                   {/* Content on hover */}
                  
                 </a>
@@ -258,7 +258,7 @@ export default function Outreach() {
 
                   {/* 20th Gallery Image */}
                 <a className="relative group hover:shadow-xl transition duration-150 ease-in-out" style={![ '3',].includes(category) ? { display: 'none' } : {}} href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-inpspiration]" data-aos-delay="500">
-                  <Image className="w-full aspect-square object-cover" src={Munster08} width="352" height="352" alt="Inspiration 06" />
+                  <Image className="w-full aspect-square object-cover" src={Munster02} width="352" height="352" alt="Inspiration 06" />
                   {/* Content on hover */}
                 </a>
 

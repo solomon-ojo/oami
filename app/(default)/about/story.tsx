@@ -27,7 +27,7 @@ export default function AboutStory() {
             <div className="sm:ml-8 lg:ml-16">
               <h4 className="h4 mb-2">Our Leaders - Pastor&Dr.(Mrs)Ademiluka</h4>
               <p className="text-lg text-gray-600 mb-8">
-               Pastor Olayinka is a seasoned teacher and preacher of the gospel. He has a special passion and desire to see people's eyes opened to the true nature of God through the precise interpetation of the scripture, and the demonstration of God's love through healings and miracles by Holy Spirit.  
+               Pastor Olayinka is a seasoned teacher and preacher of the gospel. He has a special passion and desire to see people's eyes opened to the true nature of God through the precise interpetation of the scriptures, and the demonstration of God's love through healings and miracles by Holy Spirit.  
               </p>
               <div className="flex  mb-8">
                 <Image className="rounded-full self-start shrink-0 shadow-lg mr-4" src={AboutLogo} width={40} height={40} alt="Logo" />
@@ -45,7 +45,7 @@ export default function AboutStory() {
 
           <div className="max-w-3xl mx-auto">
             <p className="text-lg text-gray-600">
-             As a pastor, he received the mandate from God to raise generals for him. Men and who women with intimate relationship with the Holy Spirit, who are sound in their understanding of the scriptures, solid in character, and able to demonstrate the love of God to the world through signs and wonders by the Holy Spirit.  Together with his wife, Dr Esther Ademiluka, they continue in this mandate by training and raising disciples accross different nations.
+             As a pastor, he received the mandate from God to raise generals for him. Men and women with intimate relationship with the Holy Spirit, who are sound in their understanding of the scriptures, solid in character, and able to demonstrate the love of God to the world through signs and wonders by the Holy Spirit.  Together with his wife, Dr Esther Ademiluka, they continue in this mandate by training and raising disciples accross different nations.
             </p>
           </div>
 
