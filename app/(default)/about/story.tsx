@@ -27,7 +27,7 @@ export default function AboutStory() {
             <div className="sm:ml-8 lg:ml-16">
               <h4 className="h4 mb-2">Our Leaders - Pastor&Dr.(Mrs)Ademiluka</h4>
               <p className="text-lg text-gray-600 mb-8">
-               Pastor Olayinka is a seasoned teacher and preacher of the gospel. He has a special passion and desire to see people's eyes opened to the true nature of God through the precise interpetation of the scriptures, and the demonstration of God's love through healings and miracles by Holy Spirit.  
+               Pastor Olayinka is a seasoned teacher and preacher of the gospel. He has a special passion and desire to see people's eyes opened to the true nature of God through the precise interpetation of the scriptures, and the demonstration of God's love through healings and miracles by the Holy Spirit.  
               </p>
               <div className="flex  mb-8">
                 <Image className="rounded-full self-start shrink-0 shadow-lg mr-4" src={AboutLogo} width={40} height={40} alt="Logo" />
