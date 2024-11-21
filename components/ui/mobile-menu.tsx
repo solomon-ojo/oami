@@ -75,7 +75,7 @@ export default function MobileMenu() {
               <Link href="https://www.youtube.com/@olayinkaademilukaministrie231"  className="flex text-gray-600 hover:text-gray-900 py-2" onClick={() => setMobileNavOpen(false)} target='_blank'>Teachings</Link>
             </li>
             <li>
-              <Link href="https://www.amazon.de/-/en/Olayinka-Ademiluka/dp/197627480X/ref=sr_1_1?crid=2EJQ1WVVWOMG1&keywords=olayinka+ademiluka&qid=1688020159&sprefix=olayinka+ademiluka%2Caps%2C111&sr=8-1" className="flex text-gray-600 hover:text-gray-900 py-2" onClick={() => setMobileNavOpen(false)}>Books</Link>
+              <Link href="https://payhip.com/pastorolayinkastore" className="flex text-gray-600 hover:text-gray-900 py-2" onClick={() => setMobileNavOpen(false)} target='_blank'>Books</Link>
             </li>
             <li>
               <Link href="https://wa.me/+447342920067" className="flex text-gray-600 hover:text-gray-900 py-2" onClick={() => setMobileNavOpen(false)}>Contact</Link>

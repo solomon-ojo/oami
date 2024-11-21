@@ -38,7 +38,7 @@ export default function HeroHome() {
                   <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://www.youtube.com/@olayinkaademilukaministrie231" target='_blank'>Teachings</a>
                 </div>
                 <div>
-                  <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="https://www.amazon.de/-/en/Olayinka-Ademiluka/dp/197627480X/ref=sr_1_1?crid=IGIEO5T649QL&keywords=olayinka+ademiluka&qid=1688024168&sprefix=olayinka+ademiluk%2Caps%2C126&sr=8-1" >Books</a>
+                  <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="https://payhip.com/pastorolayinkastore" target='_blank' >Books</a>
                 </div>
               </div>
             </div>

@@ -55,7 +55,7 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link href="https://www.amazon.de/-/en/Olayinka-Ademiluka/dp/197627480X/ref=sr_1_1?crid=2EJQ1WVVWOMG1&keywords=olayinka+ademiluka&qid=1688020159&sprefix=olayinka+ademiluka%2Caps%2C111&sr=8-1"  className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Books</Link>
+                <Link href="https://payhip.com/pastorolayinkastore"  className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Books</Link>
               </li>
                <li>
                 <Link href="https://wa.me/+447342920067"  className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Contact</Link>

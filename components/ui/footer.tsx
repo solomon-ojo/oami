@@ -63,7 +63,7 @@ export default function Footer() {
             <h6 className="text-gray-800 font-medium mb-2">Resources</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <a target='_blank' href="https://www.amazon.de/-/en/Olayinka-Ademiluka/dp/197627480X/ref=sr_1_1?crid=LFYJGY7MK807&keywords=olayinka+ademiluka&qid=1688025895&sprefix=%2Caps%2C145&sr=8-1" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Books</a>
+                <a target='_blank' href="https://payhip.com/pastorolayinkastore" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Books</a>
               </li>
               <li className="mb-2">
                 <a href="https://www.youtube.com/@olayinkaademilukaministrie231" target='_blank' className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Teachings</a>
