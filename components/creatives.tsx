@@ -5,6 +5,10 @@ import Creative01 from '@/public/images/creative-01.png'
 import Creative02 from '@/public/images/creative-02.png'
 import Creative03 from '@/public/images/creative-03.png'
 import Creative04 from '@/public/images/creative-04.png'
+import ayo from '@/public/images/ayo.jpeg'
+import wole from '@/public/images/wole.jpeg'
+import berlin from '@/public/images/berl.jpeg'
+
 import CreativeBg01 from '@/public/images/creative-bg-01.jpg'
 import CreativeBg02 from '@/public/images/creative-bg-02.jpg'
 import CreativeBg03 from '@/public/images/creative-bg-03.jpg'
@@ -41,7 +45,7 @@ export default function Creatives() {
                         >
                           AGBC GLASGOW
                         </a>
-                        <div className="text-sm font-medium text-gray-500">@Dr Esther</div>
+                        <div className="text-sm font-medium text-gray-500">@Pst Esther</div>
                       </div>
                       <div>
                         <a className="btn-sm text-white bg-gray-800 hover:bg-gray-900 shadow-sm" target='_blank' href="https://api.whatsapp.com/message/VZ3AKM3QFUJDN1?autoload=1&app_absent=0">
@@ -56,21 +60,24 @@ export default function Creatives() {
                       </div>
                     </div>
                   </div>
+
+
                   {/* Item */}
-                  <div className="text-center shadow-sm" data-aos="fade-right" data-aos-anchor="[data-aos-id-cards]" data-aos-delay="200">
-                    <Image className="w-full h-16 object-cover opacity-60" src={CreativeBg02} width={258} height={64} alt="Creative 02 bg" />
+                  <div className="text-center shadow-sm" data-aos-anchor="[data-aos-id-cards]" data-aos="fade-down">
+                    <Image className="w-full h-16 object-cover opacity-60" src={CreativeBg01} width={258} height={64} alt="Creative 01 bg" />
                     <div className="bg-white px-4 pb-6">
                       <div className="relative inline-flex -mt-8 mb-3">
                         <Image className="inline-flex rounded-full" src={Creative02} width={64} height={64} alt="Creative 01" />
+                       
                       </div>
                       <div className="mb-5">
                         <a
                           className="inline-block font-cabinet-grotesk font-bold text-xl decoration-blue-500 decoration-2 underline-offset-2 hover:underline"
                           href="#0"
                         >
-                          AGBC UTRECHT
+                          AGBC EMMEN
                         </a>
-                        <div className="text-sm font-medium text-gray-500">@Tomisin</div>
+                        <div className="text-sm font-medium text-gray-500">@Min Tomisin</div>
                       </div>
                       <div>
                         <a className="btn-sm text-white bg-gray-800 hover:bg-gray-900 shadow-sm" target='_blank' href="https://wa.me/+380633218563">
@@ -84,8 +91,46 @@ export default function Creatives() {
                         </a>
                       </div>
                     </div>
+                  </div>                
+
+
+
+                  {/* Item */}
+                  <div className="text-center shadow-sm" data-aos="fade-right" data-aos-anchor="[data-aos-id-cards]" data-aos-delay="200">
+                    <Image className="w-full h-16 object-cover opacity-60" src={CreativeBg02} width={258} height={64} alt="Creative 02 bg" />
+                    <div className="bg-white px-4 pb-6">
+                      <div className="relative inline-flex -mt-8 mb-3">
+                        <Image className="inline-flex rounded-full" src={berlin} width={64} height={64} alt="Creative 01" />
+                      </div>
+                      <div className="mb-5">
+                        <a
+                          className="inline-block font-cabinet-grotesk font-bold text-xl decoration-blue-500 decoration-2 underline-offset-2 hover:underline"
+                          href="#0"
+                        >
+                          AGBC ONLINE
+                        </a>
+                        <div className="text-sm font-medium text-gray-500">@Min Wole</div>
+                      </div>
+                      <div>
+                        <a className="btn-sm text-white bg-gray-800 hover:bg-gray-900 shadow-sm" target='_blank' href="https://wa.me/+491626529242">
+                          <svg className="mr-2" width="12" height="12" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              className="fill-white opacity-70"
+                              d="M11 5H7V1a1 1 0 0 0-2 0v4H1a1 1 0 0 0 0 2h4v4a1 1 0 0 0 2 0V7h4a1 1 0 0 0 0-2Z"
+                            />
+                          </svg>
+                          Contact
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
+
+
+
+
+
+                
                 {/* Column 2 */}
                 <div className="w-1/2 mt-6 space-y-6">
                   {/* Item */}
@@ -102,7 +147,7 @@ export default function Creatives() {
                         >
                           AGBC BERLIN
                         </a>
-                        <div className="text-sm font-medium text-gray-500">@Samuel</div>
+                        <div className="text-sm font-medium text-gray-500">@Pst Samuel</div>
                       </div>
                       <div>
                         <a className="btn-sm text-white bg-gray-800 hover:bg-gray-900 shadow-sm" target='_blank' href="https://wa.me/+380939653455">
@@ -117,13 +162,14 @@ export default function Creatives() {
                       </div>
                     </div>
                   </div>
+
+
                   {/* Item */}
-                  <div className="text-center shadow-sm" data-aos="fade-up" data-aos-anchor="[data-aos-id-cards]" data-aos-delay="300">
-                    <Image className="w-full h-16 object-cover opacity-60" src={CreativeBg04} width={258} height={64} alt="Creative 04 bg" />
+                  <div className="text-center shadow-sm" data-aos="fade-left" data-aos-anchor="[data-aos-id-cards]" data-aos-delay="100">
+                    <Image className="w-full h-16 object-cover opacity-60" src={CreativeBg03} width={258} height={64} alt="Creative 03 bg" />
                     <div className="bg-white px-4 pb-6">
                       <div className="relative inline-flex -mt-8 mb-3">
                         <Image className="inline-flex rounded-full" src={Creative04} width={64} height={64} alt="Creative 01" />
-                        
                       </div>
                       <div className="mb-5">
                         <a
@@ -132,7 +178,39 @@ export default function Creatives() {
                         >
                           AGBC NIGERIA
                         </a>
-                        <div className="text-sm font-medium text-gray-500">@Taiwo</div>
+                        <div className="text-sm font-medium text-gray-500">@Min Taiwo</div>
+                      </div>
+                      <div>
+                        <a className="btn-sm text-white bg-gray-800 hover:bg-gray-900 shadow-sm" target='_blank' href="https://wa.me/+2348169294795">
+                          <svg className="mr-2" width="12" height="12" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              className="fill-white opacity-70"
+                              d="M11 5H7V1a1 1 0 0 0-2 0v4H1a1 1 0 0 0 0 2h4v4a1 1 0 0 0 2 0V7h4a1 1 0 0 0 0-2Z"
+                            />
+                          </svg>
+                          Contact
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  {/* Item */}
+                  <div className="text-center shadow-sm" data-aos="fade-up" data-aos-anchor="[data-aos-id-cards]" data-aos-delay="300">
+                    <Image className="w-full h-16 object-cover opacity-60" src={CreativeBg04} width={258} height={64} alt="Creative 04 bg" />
+                    <div className="bg-white px-4 pb-6">
+                      <div className="relative inline-flex -mt-8 mb-3">
+                        <Image className="inline-flex rounded-full" src={ayo} width={64} height={64} alt="Creative 01" />
+                        
+                      </div>
+                      <div className="mb-5">
+                        <a
+                          className="inline-block font-cabinet-grotesk font-bold text-xl decoration-blue-500 decoration-2 underline-offset-2 hover:underline"
+                          href="#0"
+                        >
+                          AGBC BUDAPEST
+                        </a>
+                        <div className="text-sm font-medium text-gray-500">@Min Ayobami</div>
                       </div>
                       <div>
                         <a className="btn-sm text-white bg-gray-800 hover:bg-gray-900 shadow-sm" target='_blank' href="https://wa.me/+2348169294795">

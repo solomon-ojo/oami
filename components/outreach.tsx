@@ -5,7 +5,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
-import Berlin01 from '@/public/images/berlin-01.jpg'
+import Berlin01 from '@/public/images/berl.jpeg'
 import Berlin02 from '@/public/images/berlin-06.jpeg'
 import Berlin03 from '@/public/images/berlin-04.jpg'
 import Berlin04 from '@/public/images/berlin-02.jpg'
