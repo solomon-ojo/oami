@@ -100,7 +100,7 @@ export default function Creatives() {
                     <Image className="w-full h-16 object-cover opacity-60" src={CreativeBg02} width={258} height={64} alt="Creative 02 bg" />
                     <div className="bg-white px-4 pb-6">
                       <div className="relative inline-flex -mt-8 mb-3">
-                        <Image className="inline-flex rounded-full" src={berlin} width={64} height={64} alt="Creative 01" />
+                        <Image className="inline-flex rounded-full" src={wole} width={64} height={64} alt="Creative 01" />
                       </div>
                       <div className="mb-5">
                         <a
