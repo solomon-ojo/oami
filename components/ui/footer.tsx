@@ -23,16 +23,16 @@ export default function Footer() {
             <h6 className="text-gray-800 font-medium mb-2">OAMI</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">About Us</a>
+                <a href="/about" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">About Us</a>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Pastor Yinka</a>
+                <a href="https://www.youtube.com/@Pastorolayinkaademiluka" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Pastor Olayinka</a>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Outreaches</a>
+                <a href="https://api.whatsapp.com/message/VZ3AKM3QFUJDN1?autoload=1&app_absent=0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Outreaches</a>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Partnership</a>
+                <a href="https://www.paypal.com/paypalme/agbcglobal" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Partnership</a>
               </li>
               
             </ul>
@@ -66,7 +66,7 @@ export default function Footer() {
                 <a target='_blank' href="https://payhip.com/pastorolayinkastore" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Books</a>
               </li>
               <li className="mb-2">
-                <a href="https://www.youtube.com/@olayinkaademilukaministrie231" target='_blank' className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Teachings</a>
+                <a href="https://www.youtube.com/@Pastorolayinkaademiluka" target='_blank' className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Teachings</a>
               </li>
               <li className="mb-2">
                 <a target='_blank' href="https://youtube.com/playlist?list=PL8Br6V7n9dvqI0maiQO46By3Psnn2aLHa" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Believers' Training</a>
